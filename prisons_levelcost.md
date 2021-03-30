@@ -1,6 +1,6 @@
 # Cosmic Prisons energy levelup cost
 
-priceToNextLevel = startCost + (level * incrementCost)
+priceToNextLevel = currentCost + (level * incrementCost)
 
 | pickaxe type | startCost | incrementCost |
 |-|-|-|
